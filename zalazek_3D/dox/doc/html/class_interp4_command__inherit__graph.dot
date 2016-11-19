@@ -1,0 +1,12 @@
+digraph "Interp4Command"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="Interp4Command",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Interp4Fly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_fly.html",tooltip="Modeluje polecenie dla robota mobilnego, które wymusza jego ruch do przodu oraz do góry..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Interp4Rotate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_rotate.html",tooltip="Modeluje polecenie dla robota mobilnego, które wymusza jego ruch do przodu. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Interp4Turn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_turn.html",tooltip="Modeluje polecenie dla robota mobilnego, które wymusza jego ruch do przodu. "];
+}

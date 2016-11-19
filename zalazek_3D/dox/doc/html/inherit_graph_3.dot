@@ -1,0 +1,7 @@
+digraph "Graficzna hierarchia klas"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PzG::LaczeDoGNUPlota",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pz_g_1_1_lacze_do_g_n_u_plota.html",tooltip="Klasa realizuje interfejs do programu GNUPlot. "];
+}

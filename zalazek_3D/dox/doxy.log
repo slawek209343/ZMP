@@ -1,0 +1,678 @@
+warning: Tag `XML_SCHEMA' at line 1839 of file `Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `XML_DTD' at line 1845 of file `Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/src/GnuplotVisualizer.cpp:55: warning: Illegal command endlik as part of a \link
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/src/GnuplotVisualizer.cpp:57: warning: Unexpected end of comment while inside link command
+
+<main>:1: warning: argument 'angle_deg' of command @param is not found in the argument list of main()
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:68: warning: unable to resolve link to `DronPose::AfterUpdate' for \link command
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:66: warning: argument 'angle_deg' of command @param is not found in the argument list of DronPose::SetAngle_deg(double Angle_deg)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:74: warning: The following parameters of DronPose::SetAngle_deg(double Angle_deg) are not documented:
+  parameter 'Angle_deg'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:52: warning: argument 'rWsp' of command @param is not found in the argument list of DronPose::SetPos_m(const Wektor3D &rWsp_m)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:52: warning: argument 'y_m' of command @param is not found in the argument list of DronPose::SetPos_m(const Wektor3D &rWsp_m)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:61: warning: The following parameters of DronPose::SetPos_m(const Wektor3D &rWsp_m) are not documented:
+  parameter 'rWsp_m'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/DronPose.hh:132: warning: Found unknown command `\Czas'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Fly.hh:60: warning: argument 'strumien' of command @param is not found in the argument list of Interp4Fly::ReadParams(std::istream &Strm_CmdsList)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Fly.hh:63: warning: The following parameters of Interp4Fly::ReadParams(std::istream &Strm_CmdsList) are not documented:
+  parameter 'Strm_CmdsList'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Rotate.hh:59: warning: argument 'strumien' of command @param is not found in the argument list of Interp4Rotate::ReadParams(std::istream &Strm_CmdsList)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Rotate.hh:62: warning: The following parameters of Interp4Rotate::ReadParams(std::istream &Strm_CmdsList) are not documented:
+  parameter 'Strm_CmdsList'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Turn.hh:60: warning: argument 'strumien' of command @param is not found in the argument list of Interp4Turn::ReadParams(std::istream &Strm_CmdsList)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/plugin/inc/Interp4Turn.hh:63: warning: The following parameters of Interp4Turn::ReadParams(std::istream &Strm_CmdsList) are not documented:
+  parameter 'Strm_CmdsList'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/ZarzadcaWtyczek.hh:25: warning: argument 'referencja' of command @param is not found in the argument list of ZarzadcaWtyczek::dodaj(Wtyczka &wtyczka, std::string nazwa)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/ZarzadcaWtyczek.hh:25: warning: argument 'string' of command @param is not found in the argument list of ZarzadcaWtyczek::dodaj(Wtyczka &wtyczka, std::string nazwa)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/ZarzadcaWtyczek.hh:30: warning: The following parameters of ZarzadcaWtyczek::dodaj(Wtyczka &wtyczka, std::string nazwa) are not documented:
+  parameter 'wtyczka'
+  parameter 'nazwa'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/ZarzadcaWtyczek.hh:35: warning: argument 'string' of command @param is not found in the argument list of ZarzadcaWtyczek::znajdz_wtyczke(std::string nazwa)
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/inc/ZarzadcaWtyczek.hh:40: warning: The following parameters of ZarzadcaWtyczek::znajdz_wtyczke(std::string nazwa) are not documented:
+  parameter 'nazwa'
+/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/src/lacze_do_gnuplota.cpp:269: warning: unable to resolve link to `LaczeDoGNUPlota::DodajNazwe' for \link command
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__dep__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__incl.png"'
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ad7761d56443357d2ae5d70a3d2994e65_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ad7761d56443357d2ae5d70a3d2994e65_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a12f10721637d2ba9cc581d23cda87ab9_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a12f10721637d2ba9cc581d23cda87ab9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8cpp__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aa9160f3023b57af02925b0f897f479d7_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aa9160f3023b57af02925b0f897f479d7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a28a67bce394f521e1dad82e1e732d2b4_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a28a67bce394f521e1dad82e1e732d2b4_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_ac93545151306cb4bae04bf15e32c2ec8_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_ac93545151306cb4bae04bf15e32c2ec8_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__dep__incl.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aee0129456ec59fde5b6bdbadb9c699e9_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aee0129456ec59fde5b6bdbadb9c699e9_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_addcabef75953607c3e94ac8cc2cab7c8_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_addcabef75953607c3e94ac8cc2cab7c8_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a620ba28206850d0bce8dbb2364c73366_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a620ba28206850d0bce8dbb2364c73366_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a77cb2b49a99f3c5d8cbf57312138f3b7_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a77cb2b49a99f3c5d8cbf57312138f3b7_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a85dc3badb4b22d7d08f339b256abc507_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a85dc3badb4b22d7d08f339b256abc507_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a77f2758767fe7e8bbf15ec32a12abb43_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a77f2758767fe7e8bbf15ec32a12abb43_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a4ead072f01586ac62834d971debd2ea7_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a4ead072f01586ac62834d971debd2ea7_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_af7587acc60d7904c8b16266e0781113e_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_af7587acc60d7904c8b16266e0781113e_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a0e0e5348c18740d2647a1c02aad4344c_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a0e0e5348c18740d2647a1c02aad4344c_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acb88685d98e105b1ad795302157e29e7_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acb88685d98e105b1ad795302157e29e7_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ad52a5291619f8702ade2af5306b72f62_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ad52a5291619f8702ade2af5306b72f62_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ab062c3a6836e8e4eaccf85b08ea7512e_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ab062c3a6836e8e4eaccf85b08ea7512e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__inherit__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aa6b8457105e0d372ecfb5bdfec0d7efa_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aa6b8457105e0d372ecfb5bdfec0d7efa_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_af41550e5e844fe420a39a4c432f44d33_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_af41550e5e844fe420a39a4c432f44d33_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a3e0eca6a8f595482940a2bd11a0e21f1_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a3e0eca6a8f595482940a2bd11a0e21f1_cgraph.png"'
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_cgraph.png"'
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aec77aee18bffdace6167858c0996dae4_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aec77aee18bffdace6167858c0996dae4_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_ae568e10b0875e4ea69db6ac75c50d672_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_ae568e10b0875e4ea69db6ac75c50d672_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a7c48a57fd36c0af29e26c825f90a973f_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a7c48a57fd36c0af29e26c825f90a973f_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization__inherit__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a8f9b6e3955a32449195a43966607f6b8_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a8f9b6e3955a32449195a43966607f6b8_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_ad0c31a932da0869dd3ef99ed6e8025c1_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_ad0c31a932da0869dd3ef99ed6e8025c1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization_ad5a2dbdd604cafb0c38b586886bbd924_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization_ad5a2dbdd604cafb0c38b586886bbd924_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_aa6cbb7a13c8975b47f41794c99d77093_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_aa6cbb7a13c8975b47f41794c99d77093_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a470e6aadf3fca3101398c9326f20bfa6_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a470e6aadf3fca3101398c9326f20bfa6_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka__coll__graph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka__coll__graph.png"'
+sh: 1: dot: not found
+sh: 1: error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a9e6f77fccad0488ff4fe7af14837c0f3_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a9e6f77fccad0488ff4fe7af14837c0f3_icgraph.png"'
+dot: not found
+sh: 1: sh: 1: dot: not founddot: not found
+
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_aac5f3c3c7af1d8656e40b7318611e5e2_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_aac5f3c3c7af1d8656e40b7318611e5e2_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a906c746b382668b6f1b9baea189514ec_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a906c746b382668b6f1b9baea189514ec_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a79389ab1455820e0ad030350668d91d7_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a79389ab1455820e0ad030350668d91d7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a884dcd74c02a20f7c417c81d57a25865_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a884dcd74c02a20f7c417c81d57a25865_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/graph_legend.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/graph_legend.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a2491c29414eee59b94ed0027d5d46e44_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a2491c29414eee59b94ed0027d5d46e44_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_1.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_1.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_0.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_0.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_3.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_3.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_2.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_2.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_4.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_4.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_6.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_6.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_5.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_5.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_7.dot" -Tpng -o "/home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_7.png"'
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_dron_pose_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a6c3d421ff2f75448e73d2e2d5bd4193f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8cpp_a9f7a66ce1ada8bb52c97bc5fb9110f61_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_gnuplot_visualizer_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_command_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8cpp_ad4f8d6a4dc782b0f28c6d962b417afdb_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_fly_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_rotate_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8cpp_a0ab483787498a2b002838d9426437be6_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_interp4_turn_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/lacze__do__gnuplota_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a2a0e843767aeea4f433a28b9c54f573a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_ad7761d56443357d2ae5d70a3d2994e65_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a60de64d75454385b23995437f1d72669_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/main_8cpp_a12f10721637d2ba9cc581d23cda87ab9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_visualization_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_addd0e894a30b8fc8f3e9ef588b037767_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8cpp_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_addd0e894a30b8fc8f3e9ef588b037767_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wektor3_d_8hh_a382fbd2d002e9cb6d8d58cb2f3cf786e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_wtyczka_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/_zarzadca_wtyczek_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aa9160f3023b57af02925b0f897f479d7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a28a67bce394f521e1dad82e1e732d2b4_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_ac93545151306cb4bae04bf15e32c2ec8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aee0129456ec59fde5b6bdbadb9c699e9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_aeefe822241c1c8dbcab3e806dd1016bf_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_dron_pose_a77cb2b49a99f3c5d8cbf57312138f3b7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_gnuplot_visualizer_a2838d8dfb9a8e5f1c383f59f2dd2d9a1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a620ba28206850d0bce8dbb2364c73366_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_addcabef75953607c3e94ac8cc2cab7c8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a9b1bff7ff363991b35965ae9dfeac648_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a08fbbf2a70cdac46930b0eba6f5f361c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a693ca79d24ba27d11a19ed6fc90c37b9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_command_a3e15ef01af10fa8961926fd9b0274ab8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a85dc3badb4b22d7d08f339b256abc507_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a49978430e1b3f289d1886dbea57dfa82_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a0e0e5348c18740d2647a1c02aad4344c_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a77f2758767fe7e8bbf15ec32a12abb43_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_a4ead072f01586ac62834d971debd2ea7_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_fly_af7587acc60d7904c8b16266e0781113e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_aaf3f5db3c3f9a49ea4f9e5af74f0f240_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acd9e8ff38a42487c17c98d28d8d81532_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ad52a5291619f8702ade2af5306b72f62_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_ab062c3a6836e8e4eaccf85b08ea7512e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_acb88685d98e105b1ad795302157e29e7_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_rotate_a7a9896e29d1137699a9d5171e6133ffb_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aec77aee18bffdace6167858c0996dae4_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a6b702fb651beff94fa67276bc231c741_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_aa6b8457105e0d372ecfb5bdfec0d7efa_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_af41550e5e844fe420a39a4c432f44d33_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_a3e0eca6a8f595482940a2bd11a0e21f1_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_interp4_turn_ae568e10b0875e4ea69db6ac75c50d672_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_visualization_ad5a2dbdd604cafb0c38b586886bbd924_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a7c48a57fd36c0af29e26c825f90a973f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a8f9b6e3955a32449195a43966607f6b8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_ad0c31a932da0869dd3ef99ed6e8025c1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a470e6aadf3fca3101398c9326f20bfa6_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_a79389ab1455820e0ad030350668d91d7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wektor3_d_aa6cbb7a13c8975b47f41794c99d77093_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a9e6f77fccad0488ff4fe7af14837c0f3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_wtyczka_a906c746b382668b6f1b9baea189514ec_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_aac5f3c3c7af1d8656e40b7318611e5e2_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a884dcd74c02a20f7c417c81d57a25865_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_zarzadca_wtyczek_a2491c29414eee59b94ed0027d5d46e44_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b58d0ee721b2087e51cb0bcc78a10465_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_b4c3aec6cd8f28418150dce663061cfa_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_e5c39bd51a803044aa486678acd3aea1_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/slawek1918/Kreczmer/z1-pomoc/zalazek_3D/dox/doc/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.

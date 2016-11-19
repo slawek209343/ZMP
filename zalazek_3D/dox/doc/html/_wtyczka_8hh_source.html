@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Interpreter: Plik źródłowy Wtyczka.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Interpreter
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_wtyczka_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Wtyczka.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_wtyczka_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef  WTYCZKA_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define  WTYCZKA_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;dlfcn.h&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_interp4_command_8hh.html">Interp4Command.hh</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_wtyczka.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_wtyczka.html">Wtyczka</a></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  </div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a2e55e8578ffc23ddd6eb670c1eda2b32">   29</a></span>&#160;  <a class="code" href="class_interp4_command.html">Interp4Command</a> *<a class="code" href="class_wtyczka.html#a2e55e8578ffc23ddd6eb670c1eda2b32">_pInterp</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a78dcf1cf9e1a2656b4cc7d261cdb5ff2">   36</a></span>&#160;  <span class="keywordtype">void</span> * <a class="code" href="class_wtyczka.html#a78dcf1cf9e1a2656b4cc7d261cdb5ff2">_pLibHandler</a>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a2c32ae7076b238f87121a47f97894e73">   43</a></span>&#160;   <a class="code" href="class_wtyczka.html#a2c32ae7076b238f87121a47f97894e73">Wtyczka</a>(){</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    cout&lt;&lt;<span class="stringliteral">&quot;Wywolany konstruktor Wtyczek\n&quot;</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;   }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a5dbaf73422d4dd0dd71477f85fc58dfb">   53</a></span>&#160;        <a class="code" href="class_wtyczka.html#a5dbaf73422d4dd0dd71477f85fc58dfb">~Wtyczka</a>(){</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    cout&lt;&lt;<span class="stringliteral">&quot;dziala destruktor wtyczek\n&quot;</span>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  </div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    _pInterp = NULL;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">//delete _pInterp;</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                dlclose(_pLibHandler);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                </div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">void</span> dodaj_wtyczke();</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a906c746b382668b6f1b9baea189514ec">   74</a></span>&#160;  <a class="code" href="class_interp4_command.html">Interp4Command</a>* <a class="code" href="class_wtyczka.html#a906c746b382668b6f1b9baea189514ec">zwroc_pInterp</a>()</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> _pInterp;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_wtyczka.html#a9e6f77fccad0488ff4fe7af14837c0f3">   83</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_wtyczka.html#a9e6f77fccad0488ff4fe7af14837c0f3">Wtyczka::dodaj_wtyczke</a>()</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="class_interp4_command.html">Interp4Command</a> *(*pCreateCmd)(void);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordtype">void</span> *pFun;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keywordflow">if</span> (!_pLibHandler) {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;!!! Brak biblioteki: Tylko ktora to&quot;</span> &lt;&lt; endl;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  pFun = dlsym(_pLibHandler,<span class="stringliteral">&quot;CreateCmd&quot;</span>);</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">if</span> (!pFun) {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;!!! Nie znaleziono funkcji CreateCmd&quot;</span> &lt;&lt; endl;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  pCreateCmd = *<span class="keyword">reinterpret_cast&lt;</span><a class="code" href="class_interp4_command.html">Interp4Command</a>* (**)(<span class="keywordtype">void</span>)<span class="keyword">&gt;</span>(&amp;pFun);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  _pInterp = pCreateCmd();</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_wtyczka_html"><div class="ttname"><a href="class_wtyczka.html">Wtyczka</a></div><div class="ttdoc">Przechowuje 2 wskazniki, jeden to uchwyt do pliku .so. </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00021">Wtyczka.hh:21</a></div></div>
+<div class="ttc" id="class_wtyczka_html_a78dcf1cf9e1a2656b4cc7d261cdb5ff2"><div class="ttname"><a href="class_wtyczka.html#a78dcf1cf9e1a2656b4cc7d261cdb5ff2">Wtyczka::_pLibHandler</a></div><div class="ttdeci">void * _pLibHandler</div><div class="ttdoc">wskaznik typu void, jako uchwyt pliku </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00036">Wtyczka.hh:36</a></div></div>
+<div class="ttc" id="class_wtyczka_html_a9e6f77fccad0488ff4fe7af14837c0f3"><div class="ttname"><a href="class_wtyczka.html#a9e6f77fccad0488ff4fe7af14837c0f3">Wtyczka::dodaj_wtyczke</a></div><div class="ttdeci">void dodaj_wtyczke()</div><div class="ttdoc">aktualizuje wskazniki klasy o konkretne wartosci z zadanej wtyczki </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00083">Wtyczka.hh:83</a></div></div>
+<div class="ttc" id="class_wtyczka_html_a5dbaf73422d4dd0dd71477f85fc58dfb"><div class="ttname"><a href="class_wtyczka.html#a5dbaf73422d4dd0dd71477f85fc58dfb">Wtyczka::~Wtyczka</a></div><div class="ttdeci">~Wtyczka()</div><div class="ttdoc">destruktor klasy </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00053">Wtyczka.hh:53</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="class_interp4_command_html"><div class="ttname"><a href="class_interp4_command.html">Interp4Command</a></div><div class="ttdoc">Modeluje abstrakcyjne polecenie dla robota mobilnego. </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_command_8hh_source.html#l00031">Interp4Command.hh:31</a></div></div>
+<div class="ttc" id="_interp4_command_8hh_html"><div class="ttname"><a href="_interp4_command_8hh.html">Interp4Command.hh</a></div><div class="ttdoc">Definicja klasy Interp4Command. </div></div>
+<div class="ttc" id="class_wtyczka_html_a906c746b382668b6f1b9baea189514ec"><div class="ttname"><a href="class_wtyczka.html#a906c746b382668b6f1b9baea189514ec">Wtyczka::zwroc_pInterp</a></div><div class="ttdeci">Interp4Command * zwroc_pInterp()</div><div class="ttdoc">zwraca wskaznik do konkretnej wtyczki, jako ze jest on zmienna prywatna </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00074">Wtyczka.hh:74</a></div></div>
+<div class="ttc" id="class_wtyczka_html_a2e55e8578ffc23ddd6eb670c1eda2b32"><div class="ttname"><a href="class_wtyczka.html#a2e55e8578ffc23ddd6eb670c1eda2b32">Wtyczka::_pInterp</a></div><div class="ttdeci">Interp4Command * _pInterp</div><div class="ttdoc">wskaznik typu Interp4Command </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00029">Wtyczka.hh:29</a></div></div>
+<div class="ttc" id="class_wtyczka_html_a2c32ae7076b238f87121a47f97894e73"><div class="ttname"><a href="class_wtyczka.html#a2c32ae7076b238f87121a47f97894e73">Wtyczka::Wtyczka</a></div><div class="ttdeci">Wtyczka()</div><div class="ttdoc">konstruktor bezparametryczny </div><div class="ttdef"><b>Definition:</b> <a href="_wtyczka_8hh_source.html#l00043">Wtyczka.hh:43</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="_wtyczka_8hh.html">Wtyczka.hh</a></li>
+    <li class="footer">Wygenerowano Cz, 10 lis 2016 08:36:15 dla Interpreter programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

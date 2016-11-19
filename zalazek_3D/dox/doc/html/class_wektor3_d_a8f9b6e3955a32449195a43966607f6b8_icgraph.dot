@@ -1,0 +1,9 @@
+digraph "Wektor3D::operator+="
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Wektor3D::operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Wektor3D::Wektor3D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor3_d.html#a7c48a57fd36c0af29e26c825f90a973f",tooltip="Inicjalizuje współrzędne wektora wartościami 0. "];
+}

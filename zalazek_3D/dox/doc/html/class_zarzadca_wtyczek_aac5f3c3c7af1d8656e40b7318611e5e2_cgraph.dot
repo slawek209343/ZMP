@@ -1,0 +1,9 @@
+digraph "ZarzadcaWtyczek::~ZarzadcaWtyczek"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ZarzadcaWtyczek::~Zarzadca\lWtyczek",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="ZarzadcaWtyczek::znajdz\l_wtyczke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zarzadca_wtyczek.html#a2491c29414eee59b94ed0027d5d46e44",tooltip="dodaje do naszej mapy kolejne wtyczki "];
+}

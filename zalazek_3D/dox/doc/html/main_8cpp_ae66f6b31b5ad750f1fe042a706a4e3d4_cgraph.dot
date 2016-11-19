@@ -1,0 +1,46 @@
+digraph "main"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a2a0e843767aeea4f433a28b9c54f573a",tooltip="wywoluje menu obslugi polecen dla drona Po wybraniu zadanej opcji realizowane sa zadania zgodnie z op..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="pokaz_sekwencje",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ad7761d56443357d2ae5d70a3d2994e65",tooltip="wypisuje na konsoli zawartosc pliku tekstowego z ktorego pobieramy komendy dla drona ..."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a60de64d75454385b23995437f1d72669",tooltip="realizuje obbliczanie i pozycji drona oraz jej rysowanie Po każdorazowym wczytaniu jednej linijki dan..."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="DronPose::SetPos_m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron_pose.html#aeefe822241c1c8dbcab3e806dd1016bf",tooltip="Ustawia wartości współrzędnych pozy robota. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Wektor3D::x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor3_d.html#ad0c31a932da0869dd3ef99ed6e8025c1",tooltip="Udostępia do odczytu współrzędną x-ową. "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Wektor3D::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor3_d.html#a470e6aadf3fca3101398c9326f20bfa6",tooltip="Udostępia do odczytu współrzędną y-ową. "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Wektor3D::z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor3_d.html#a79389ab1455820e0ad030350668d91d7",tooltip="Udostępia do odczytu współrzędną z-ową. "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="GnuplotVisualizer::Draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_gnuplot_visualizer.html#a2838d8dfb9a8e5f1c383f59f2dd2d9a1"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="AddTrajectoryPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gnuplot_visualizer_8cpp.html#a6c3d421ff2f75448e73d2e2d5bd4193f"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="DronPose::GetPos_m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron_pose.html#a28a67bce394f521e1dad82e1e732d2b4",tooltip="Udostępnia wartości współrzędnych pozy robota. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="WriteCurrDonPose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gnuplot_visualizer_8cpp.html#a9f7a66ce1ada8bb52c97bc5fb9110f61"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Wtyczka::dodaj_wtyczke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wtyczka.html#a9e6f77fccad0488ff4fe7af14837c0f3",tooltip="aktualizuje wskazniki klasy o konkretne wartosci z zadanej wtyczki "];
+  Node4 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="ZarzadcaWtyczek::dodaj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zarzadca_wtyczek.html#a884dcd74c02a20f7c417c81d57a25865",tooltip="dodaje do naszej mapy kolejne wtyczki "];
+  Node4 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="ZarzadcaWtyczek::znajdz\l_wtyczke",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_zarzadca_wtyczek.html#a2491c29414eee59b94ed0027d5d46e44",tooltip="dodaje do naszej mapy kolejne wtyczki "];
+  Node4 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Wtyczka::zwroc_pInterp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wtyczka.html#a906c746b382668b6f1b9baea189514ec",tooltip="zwraca wskaznik do konkretnej wtyczki, jako ze jest on zmienna prywatna "];
+  Node4 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Interp4Command::PrintSyntax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_command.html#a693ca79d24ba27d11a19ed6fc90c37b9"];
+  Node4 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Interp4Command::ReadParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_command.html#a3e15ef01af10fa8961926fd9b0274ab8"];
+  Node4 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Interp4Command::ExecCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_command.html#addcabef75953607c3e94ac8cc2cab7c8"];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="wczytaj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a12f10721637d2ba9cc581d23cda87ab9",tooltip="pobiera od uzytkownika nazwe pliku Nastepnie z tego pliku beda czytane polecenia dla drona ..."];
+}

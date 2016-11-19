@@ -1,0 +1,28 @@
+digraph "Wektor3D::y"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Wektor3D::y",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="DronPose::SetPos_m",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron_pose.html#aeefe822241c1c8dbcab3e806dd1016bf",tooltip="Ustawia wartości współrzędnych pozy robota. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Interp4Fly::ExecCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_fly.html#a0e0e5348c18740d2647a1c02aad4344c",tooltip="wykonuje dane polecenie. Parametry metody maja nastepujace znaczenia: pDronPose - wskaznik na obiekt ..."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Interp4Turn::ExecCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_turn.html#aa6b8457105e0d372ecfb5bdfec0d7efa",tooltip="wykonuje dane polecenie. Parametry metody maja nastepujace znaczenia: pDronPose - wskaznik na obiekt ..."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a60de64d75454385b23995437f1d72669",tooltip="realizuje obbliczanie i pozycji drona oraz jej rysowanie Po każdorazowym wczytaniu jednej linijki dan..."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a2a0e843767aeea4f433a28b9c54f573a",tooltip="wywoluje menu obslugi polecen dla drona Po wybraniu zadanej opcji realizowane sa zadania zgodnie z op..."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor3_d_8cpp.html#a382fbd2d002e9cb6d8d58cb2f3cf786e",tooltip="Czyta ze strumienia trzy kolejne współrzędne wektora. "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Wektor3D::z",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor3_d.html#aa6cbb7a13c8975b47f41794c99d77093",tooltip="Udostępia do modyfikacji współrzędną z-ową. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wektor3_d_8cpp.html#addd0e894a30b8fc8f3e9ef588b037767",tooltip="Wpisuje do strumienia trzy kolejne współrzędne rozdzielone pojedynczymi spacjami. ..."];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

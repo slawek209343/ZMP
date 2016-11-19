@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Interpreter: Plik źródłowy GnuplotVisualizer.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Interpreter
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_gnuplot_visualizer_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">GnuplotVisualizer.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_gnuplot_visualizer_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef GNUPLOTVISULIZER_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define GNUPLOTVISULIZER_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_visualization_8hh.html">Visualization.hh</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lacze__do__gnuplota_8hh.html">lacze_do_gnuplota.hh</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="_gnuplot_visualizer_8hh.html#a71d7af1e5bc10ee8178dc7f369483494">   15</a></span>&#160;<span class="preprocessor">#define FILE_NAME__TRAJECTORY         &quot;trajektoria_drona.dat&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="_gnuplot_visualizer_8hh.html#a828b8945a183ff45372fd7d0d2ab5bd5">   24</a></span>&#160;<span class="preprocessor">#define FILE_NAME__DRON_BODY_VIEW     &quot;widok_drona.dat&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="_gnuplot_visualizer_8hh.html#ab391ade1c2750f3cf30340ab346eb5c4">   36</a></span>&#160;<span class="preprocessor">#define FILE_NAME__DRON_BODY_TEMPLATE &quot;korpus_drona.dat&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_gnuplot_visualizer.html">   43</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_gnuplot_visualizer.html">GnuplotVisualizer</a>: <span class="keyword">public</span> <a class="code" href="class_visualization.html">Visualization</a> {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">public</span>:</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_gnuplot_visualizer.html#a0afaeb82c96f8d5907e7468b8e2ad954">   49</a></span>&#160;   <a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a>   <a class="code" href="class_gnuplot_visualizer.html#a0afaeb82c96f8d5907e7468b8e2ad954">Plotter</a>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="class_gnuplot_visualizer.html#a970efd86649c834d224c30ba6a56ace8">GnuplotVisualizer</a>();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;   <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_gnuplot_visualizer.html#a2838d8dfb9a8e5f1c383f59f2dd2d9a1">Draw</a>( <span class="keyword">const</span> <a class="code" href="class_dron_pose.html">DronPose</a> *pPose );</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="lacze__do__gnuplota_8hh_html"><div class="ttname"><a href="lacze__do__gnuplota_8hh.html">lacze_do_gnuplota.hh</a></div></div>
+<div class="ttc" id="class_visualization_html"><div class="ttname"><a href="class_visualization.html">Visualization</a></div><div class="ttdef"><b>Definition:</b> <a href="_visualization_8hh_source.html#l00010">Visualization.hh:10</a></div></div>
+<div class="ttc" id="_visualization_8hh_html"><div class="ttname"><a href="_visualization_8hh.html">Visualization.hh</a></div></div>
+<div class="ttc" id="class_gnuplot_visualizer_html_a970efd86649c834d224c30ba6a56ace8"><div class="ttname"><a href="class_gnuplot_visualizer.html#a970efd86649c834d224c30ba6a56ace8">GnuplotVisualizer::GnuplotVisualizer</a></div><div class="ttdeci">GnuplotVisualizer()</div><div class="ttdoc">Kasuje zawartość plików danych i dodaje je do łącza do gnuplota. </div><div class="ttdef"><b>Definition:</b> <a href="_gnuplot_visualizer_8cpp_source.html#l00034">GnuplotVisualizer.cpp:34</a></div></div>
+<div class="ttc" id="class_gnuplot_visualizer_html"><div class="ttname"><a href="class_gnuplot_visualizer.html">GnuplotVisualizer</a></div><div class="ttdoc">Umożliwia wykorzystanie programu gnuplot do wizualizacji ruchu drona. </div><div class="ttdef"><b>Definition:</b> <a href="_gnuplot_visualizer_8hh_source.html#l00043">GnuplotVisualizer.hh:43</a></div></div>
+<div class="ttc" id="class_gnuplot_visualizer_html_a0afaeb82c96f8d5907e7468b8e2ad954"><div class="ttname"><a href="class_gnuplot_visualizer.html#a0afaeb82c96f8d5907e7468b8e2ad954">GnuplotVisualizer::Plotter</a></div><div class="ttdeci">PzG::LaczeDoGNUPlota Plotter</div><div class="ttdoc">Pośredniczy w uruchomieniu i przekazywaniu poleceń do programu gnuplot. </div><div class="ttdef"><b>Definition:</b> <a href="_gnuplot_visualizer_8hh_source.html#l00049">GnuplotVisualizer.hh:49</a></div></div>
+<div class="ttc" id="class_pz_g_1_1_lacze_do_g_n_u_plota_html"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a></div><div class="ttdoc">Klasa realizuje interfejs do programu GNUPlot. </div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8hh_source.html#l00140">lacze_do_gnuplota.hh:140</a></div></div>
+<div class="ttc" id="class_dron_pose_html"><div class="ttname"><a href="class_dron_pose.html">DronPose</a></div><div class="ttdoc">Modeluje zestaw informacji określający pozę robota. </div><div class="ttdef"><b>Definition:</b> <a href="_dron_pose_8hh_source.html#l00022">DronPose.hh:22</a></div></div>
+<div class="ttc" id="class_gnuplot_visualizer_html_a2838d8dfb9a8e5f1c383f59f2dd2d9a1"><div class="ttname"><a href="class_gnuplot_visualizer.html#a2838d8dfb9a8e5f1c383f59f2dd2d9a1">GnuplotVisualizer::Draw</a></div><div class="ttdeci">virtual void Draw(const DronPose *pPose)</div><div class="ttdef"><b>Definition:</b> <a href="_gnuplot_visualizer_8cpp_source.html#l00147">GnuplotVisualizer.cpp:147</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="_gnuplot_visualizer_8hh.html">GnuplotVisualizer.hh</a></li>
+    <li class="footer">Wygenerowano Cz, 10 lis 2016 08:36:15 dla Interpreter programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+digraph "DronPose::SetAngle_deg"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DronPose::SetAngle_deg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Interp4Rotate::ExecCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_rotate.html#ad52a5291619f8702ade2af5306b72f62",tooltip="wykonuje dane polecenie. Parametry metody maja nastepujace znaczenia: pDronPose - wskaznik na obiekt ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Interp4Turn::ExecCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_turn.html#aa6b8457105e0d372ecfb5bdfec0d7efa",tooltip="wykonuje dane polecenie. Parametry metody maja nastepujace znaczenia: pDronPose - wskaznik na obiekt ..."];
+}

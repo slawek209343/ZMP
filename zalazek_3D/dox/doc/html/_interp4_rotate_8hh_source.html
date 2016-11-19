@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Interpreter: Plik źródłowy Interp4Rotate.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Interpreter
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_interp4_rotate_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Interp4Rotate.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_interp4_rotate_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef  COMMAND4Rotate_HH</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define  COMMAND4Rotate_HH</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifndef __GNUG__</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"># pragma interface</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"># pragma implementation</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_interp4_command_8hh.html">Interp4Command.hh</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_interp4_rotate.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_interp4_rotate.html">Interp4Rotate</a>: <span class="keyword">public</span> <a class="code" href="class_interp4_command.html">Interp4Command</a> {</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_interp4_rotate.html#ae84619786a478eb9ad7561f87394723a">   28</a></span>&#160;  <span class="keywordtype">double</span>  <a class="code" href="class_interp4_rotate.html#ae84619786a478eb9ad7561f87394723a">_Ang_Speed_degS</a>;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_interp4_rotate.html#a55b417676f9fb14189b7a609eec852a1">   29</a></span>&#160;  <span class="keywordtype">double</span>  <a class="code" href="class_interp4_rotate.html#a55b417676f9fb14189b7a609eec852a1">_Ang_Distance_deg</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="class_interp4_rotate.html#aaf3f5db3c3f9a49ea4f9e5af74f0f240">Interp4Rotate</a>();  </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_interp4_rotate.html#acb88685d98e105b1ad795302157e29e7">PrintCmd</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_interp4_rotate.html#a29944d0ef04ce0264cb6eb0ca6c3364f">PrintSyntax</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="class_interp4_rotate.html#ab062c3a6836e8e4eaccf85b08ea7512e">GetCmdName</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_interp4_rotate.html#ad52a5291619f8702ade2af5306b72f62">ExecCmd</a>( <a class="code" href="class_dron_pose.html">DronPose</a>  *pRobPose,   <a class="code" href="class_visualization.html">Visualization</a> *pVis) <span class="keyword">const</span>;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_interp4_rotate.html#a7c3a8aa671e83ff1776ba868d8043009">ReadParams</a>(std::istream&amp; Strm_CmdsList);</div><div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="class_interp4_rotate.html#a7a9896e29d1137699a9d5171e6133ffb">   66</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_interp4_rotate.html#a7a9896e29d1137699a9d5171e6133ffb">PrintParams</a>() {}</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_interp4_command.html">Interp4Command</a>* <a class="code" href="class_interp4_rotate.html#acd9e8ff38a42487c17c98d28d8d81532">CreateCmd</a>();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; };</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_interp4_rotate_html_a29944d0ef04ce0264cb6eb0ca6c3364f"><div class="ttname"><a href="class_interp4_rotate.html#a29944d0ef04ce0264cb6eb0ca6c3364f">Interp4Rotate::PrintSyntax</a></div><div class="ttdeci">virtual void PrintSyntax() const </div><div class="ttdoc">funkcja wyswietla nazwe i skladanie danego polecenia, np.: Fly speed_hor[m/s] speed_ver[m/s] dst[m] ...</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00116">Interp4Rotate.cpp:116</a></div></div>
+<div class="ttc" id="class_visualization_html"><div class="ttname"><a href="class_visualization.html">Visualization</a></div><div class="ttdef"><b>Definition:</b> <a href="_visualization_8hh_source.html#l00010">Visualization.hh:10</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_ab062c3a6836e8e4eaccf85b08ea7512e"><div class="ttname"><a href="class_interp4_rotate.html#ab062c3a6836e8e4eaccf85b08ea7512e">Interp4Rotate::GetCmdName</a></div><div class="ttdeci">virtual const char * GetCmdName() const </div><div class="ttdoc">zwraca wskaznik do napisu w przypadku Fly bedzie to napis &quot;Fly&quot; </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00048">Interp4Rotate.cpp:48</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_a7c3a8aa671e83ff1776ba868d8043009"><div class="ttname"><a href="class_interp4_rotate.html#a7c3a8aa671e83ff1776ba868d8043009">Interp4Rotate::ReadParams</a></div><div class="ttdeci">virtual bool ReadParams(std::istream &amp;Strm_CmdsList)</div><div class="ttdoc">funkcja wczytuje z ciagu tekstowego liste parametrow </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00092">Interp4Rotate.cpp:92</a></div></div>
+<div class="ttc" id="class_interp4_command_html"><div class="ttname"><a href="class_interp4_command.html">Interp4Command</a></div><div class="ttdoc">Modeluje abstrakcyjne polecenie dla robota mobilnego. </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_command_8hh_source.html#l00031">Interp4Command.hh:31</a></div></div>
+<div class="ttc" id="_interp4_command_8hh_html"><div class="ttname"><a href="_interp4_command_8hh.html">Interp4Command.hh</a></div><div class="ttdoc">Definicja klasy Interp4Command. </div></div>
+<div class="ttc" id="class_dron_pose_html"><div class="ttname"><a href="class_dron_pose.html">DronPose</a></div><div class="ttdoc">Modeluje zestaw informacji określający pozę robota. </div><div class="ttdef"><b>Definition:</b> <a href="_dron_pose_8hh_source.html#l00022">DronPose.hh:22</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_aaf3f5db3c3f9a49ea4f9e5af74f0f240"><div class="ttname"><a href="class_interp4_rotate.html#aaf3f5db3c3f9a49ea4f9e5af74f0f240">Interp4Rotate::Interp4Rotate</a></div><div class="ttdeci">Interp4Rotate()</div><div class="ttdoc">konstruktor naszej klasy inicjalizowany za pomoc listy inicjalizacyjnej </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00029">Interp4Rotate.cpp:29</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_a55b417676f9fb14189b7a609eec852a1"><div class="ttname"><a href="class_interp4_rotate.html#a55b417676f9fb14189b7a609eec852a1">Interp4Rotate::_Ang_Distance_deg</a></div><div class="ttdeci">double _Ang_Distance_deg</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8hh_source.html#l00029">Interp4Rotate.hh:29</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_a7a9896e29d1137699a9d5171e6133ffb"><div class="ttname"><a href="class_interp4_rotate.html#a7a9896e29d1137699a9d5171e6133ffb">Interp4Rotate::PrintParams</a></div><div class="ttdeci">virtual void PrintParams()</div><div class="ttdoc">funkcja wyswietla jakiego typu dane sa uzywane do sterowania dronem oraz wyswietla w jakich jednostka...</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8hh_source.html#l00066">Interp4Rotate.hh:66</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_acd9e8ff38a42487c17c98d28d8d81532"><div class="ttname"><a href="class_interp4_rotate.html#acd9e8ff38a42487c17c98d28d8d81532">Interp4Rotate::CreateCmd</a></div><div class="ttdeci">static Interp4Command * CreateCmd()</div><div class="ttdoc">Ta metoda nie musi być zdefiniowna w klasie bazowej. </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00107">Interp4Rotate.cpp:107</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html"><div class="ttname"><a href="class_interp4_rotate.html">Interp4Rotate</a></div><div class="ttdoc">Modeluje polecenie dla robota mobilnego, które wymusza jego ruch do przodu. </div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8hh_source.html#l00023">Interp4Rotate.hh:23</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_ae84619786a478eb9ad7561f87394723a"><div class="ttname"><a href="class_interp4_rotate.html#ae84619786a478eb9ad7561f87394723a">Interp4Rotate::_Ang_Speed_degS</a></div><div class="ttdeci">double _Ang_Speed_degS</div><div class="ttdoc">zmienne przechowujace paramtry lotu drona Dla polecenia Rotate sa to kat obrotu [stopnie] i predkosc ...</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8hh_source.html#l00028">Interp4Rotate.hh:28</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_ad52a5291619f8702ade2af5306b72f62"><div class="ttname"><a href="class_interp4_rotate.html#ad52a5291619f8702ade2af5306b72f62">Interp4Rotate::ExecCmd</a></div><div class="ttdeci">virtual bool ExecCmd(DronPose *pRobPose, Visualization *pVis) const </div><div class="ttdoc">wykonuje dane polecenie. Parametry metody maja nastepujace znaczenia: pDronPose - wskaznik na obiekt ...</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00057">Interp4Rotate.cpp:57</a></div></div>
+<div class="ttc" id="class_interp4_rotate_html_acb88685d98e105b1ad795302157e29e7"><div class="ttname"><a href="class_interp4_rotate.html#acb88685d98e105b1ad795302157e29e7">Interp4Rotate::PrintCmd</a></div><div class="ttdeci">virtual void PrintCmd() const </div><div class="ttdoc">wyswietla nazwe polecenia i wartosci jego parametrow przykladowo dla polecenia Fly zostanie wyswietlo...</div><div class="ttdef"><b>Definition:</b> <a href="_interp4_rotate_8cpp_source.html#l00036">Interp4Rotate.cpp:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_b4c3aec6cd8f28418150dce663061cfa.html">plugin</a></li><li class="navelem"><a class="el" href="dir_b58d0ee721b2087e51cb0bcc78a10465.html">inc</a></li><li class="navelem"><a class="el" href="_interp4_rotate_8hh.html">Interp4Rotate.hh</a></li>
+    <li class="footer">Wygenerowano Cz, 10 lis 2016 08:36:15 dla Interpreter programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

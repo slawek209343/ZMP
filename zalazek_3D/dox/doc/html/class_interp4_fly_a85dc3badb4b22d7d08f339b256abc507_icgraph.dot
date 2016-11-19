@@ -1,0 +1,13 @@
+digraph "Interp4Fly::Interp4Fly"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Interp4Fly::Interp4Fly",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Interp4Fly::CreateCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_fly.html#a49978430e1b3f289d1886dbea57dfa82",tooltip="Ta metoda nie musi być zdefiniowna w klasie bazowej. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="CreateCmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interp4_fly_8cpp.html#ad4f8d6a4dc782b0f28c6d962b417afdb"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Interp4Fly::PrintParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_interp4_fly.html#af7587acc60d7904c8b16266e0781113e",tooltip="funkcja wyswietla jakiego typu dane sa uzywane do sterowania dronem oraz wyswietla w jakich jednostka..."];
+}
