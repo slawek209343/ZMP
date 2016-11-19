@@ -10,8 +10,11 @@ __plugin__:
 CPPFLAGS=-Wall -pedantic -std=c++11 -iquote inc
 LDFLAGS=-Wall
 
-interp: obj/main.o obj/lacze_do_gnuplota.o obj/GnuplotVisualizer.o obj/Wektor3D.o
-	g++ ${LDFLAGS} -o interp  obj/main.o obj/lacze_do_gnuplota.o obj/GnuplotVisualizer.o obj/Wektor3D.o -ldl
+interp: obj/main.o obj/lacze_do_gnuplota.o obj/GnuplotVisualizer.o obj/Wektor3D.o obj/xmlparser4scene.o
+	g++ ${LDFLAGS} -o interp  obj/main.o obj/lacze_do_gnuplota.o obj/GnuplotVisualizer.o obj/Wektor3D.o obj/xmlparser4scene.o -ldl -lxerces-c
+
+obj/xmlparser4scene.o: src/xmlparser4scene.cpp inc/xmlparser4scene.hh
+	g++ -c ${CPPFLAGS} -o obj/xmlparser4scene.o src/xmlparser4scene.cpp
 
 obj/lacze_do_gnuplota.o: src/lacze_do_gnuplota.cpp inc/lacze_do_gnuplota.hh
 	g++  -c ${CPPFLAGS} -o obj/lacze_do_gnuplota.o src/lacze_do_gnuplota.cpp
@@ -23,14 +26,9 @@ obj/GnuplotVisualizer.o: src/GnuplotVisualizer.cpp inc/GnuplotVisualizer.hh\
 obj/Wektor3D.o: src/Wektor3D.cpp inc/Wektor3D.hh
 	g++ -c ${CPPFLAGS} -o obj/Wektor3D.o src/Wektor3D.cpp
 
-obj/main.o: src/main.cpp inc/Interp4Command.hh
+obj/main.o: src/main.cpp
 	g++ -c ${CPPFLAGS} -o obj/main.o src/main.cpp
 
-obj/Wtyczka.o: src/Wtyczka.cpp inc/Wtyczka.hh 
-	g++ ${CPPFLAGS} -o obj/Wtyczka.o src/Wtyczka.cpp
-
-obj/ZarzadcaWtyczek.o: src/ZarzadcaWtyczek.cpp inc/ZarzadcaWtyczek.hh 
-	g++ ${CPPFLAGS} -o obj/ZarzadcaWtyczek.o src/ZarzadcaWtyczek.cpp
 
 clean:
 	rm -f obj/* interp core*
