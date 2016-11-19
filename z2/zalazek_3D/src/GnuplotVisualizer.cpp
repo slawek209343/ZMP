@@ -322,6 +322,7 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
   }
 
    // 2. Usuwamy dotychczasowe obiekty 
+  //otwiera sie nowe okno wiec sie nic nie musi czyscic
 
 
    // 3. Następnie usuwamy wszystkie nazwy plików związne ze starymi
