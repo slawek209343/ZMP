@@ -78,10 +78,10 @@ void GnuplotVisualizer::AddDronFileNames4Gnuplot()
 
     // Parametr 1 na końcu odpowiada rysowaniu kolorem czarnym
   Plotter.DodajNazwePliku(FILE_NAME__DRON_BODY_VIEW,PzG::RR_Ciagly,1,7);
-  Plotter.DodajNazwePliku(FILE_NAME__ROTOR1,PzG::RR_Ciagly,1,7);
-  Plotter.DodajNazwePliku(FILE_NAME__ROTOR2,PzG::RR_Ciagly,1,7);
-  Plotter.DodajNazwePliku(FILE_NAME__ROTOR3,PzG::RR_Ciagly,1,7);
-  Plotter.DodajNazwePliku(FILE_NAME__ROTOR4,PzG::RR_Ciagly,1,7);
+  //Plotter.DodajNazwePliku(FILE_NAME__ROTOR1,PzG::RR_Ciagly,1,7);
+  //Plotter.DodajNazwePliku(FILE_NAME__ROTOR2,PzG::RR_Ciagly,1,7);
+  //Plotter.DodajNazwePliku(FILE_NAME__ROTOR3,PzG::RR_Ciagly,1,7);
+  //Plotter.DodajNazwePliku(FILE_NAME__ROTOR4,PzG::RR_Ciagly,1,7);
 }
 
 
