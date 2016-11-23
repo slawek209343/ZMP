@@ -1,6 +1,6 @@
 #ifndef PROSTOPADLOSCIAN_HH
 #define PROSTOPADLOSCIAN_HH
-
+#include <string>
 #include "Wektor3D.hh"
 #include "Cuboid.hh"
 #include <string>
@@ -19,19 +19,16 @@ public:
 public:
     char *nazwa;
 
-const Wektor3D &GetCenter() const;
-const Wektor3D &GetSize() const;
+const Wektor3D &GetCenter() const{
+ return _center;
+}
+const Wektor3D &GetSize() const{
+ return _size;
+}
 
 };
-const Wektor3D & Prostopadloscian::GetSize() const
-{
 
-	return _size;
-}
-const Wektor3D & Prostopadloscian::GetCenter() const
-{
-	return _center;
-}
+
 
 
 #endif

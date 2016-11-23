@@ -82,7 +82,7 @@ void XMLParser4Scene::WhenStartElement( const std::string       &ElemName,
 
     return;
   }
-
+/**************************************************************************************/
   if (ElemName == "Parameter"){ //proces pobierajacy parametr
 
     if (Attrs.getLength() != 2){
@@ -97,17 +97,17 @@ void XMLParser4Scene::WhenStartElement( const std::string       &ElemName,
     int zero = 0;
     char* sParamName = xercesc::XMLString::transcode(Attrs.getValue(static_cast<XMLSize_t>(zero)));
     std::string param =std::string( xercesc::XMLString::transcode(Attrs.getValue(static_cast<XMLSize_t>(1))));
-    //coordinates of Wektor3D _center
-    if(idx < WYMIAR3D){
+
+    if(idx < WYMIAR3D){    //elementy  do Wektor3D _center
       std::string::size_type sz; //alias of size_t
-      _pScn->Przeszkody.back()._center[idx] = stod(param, &sz);
+      _pScn->Przeszkody.back()._center[idx] = stod(param, &sz);//string to double
       cout << _pScn->Przeszkody.back()._center[idx];
       ++idx;
     }
-    //coordinates of Wektor3D _size
-    else if( idx < 2 * WYMIAR3D){
+
+    else if( idx < 2 * WYMIAR3D){    //elementy do Wektor3D _size
       std::string::size_type sz; //alias of size_t
-      _pScn->Przeszkody.back()._size[idx-WYMIAR3D] = stod(param, &sz);
+      _pScn->Przeszkody.back()._size[idx-WYMIAR3D] = stod(param, &sz);//string to double
       cout << _pScn->Przeszkody.back()._size[idx-WYMIAR3D];
       ++idx;
       if(idx == 6) idx = 0;
@@ -120,70 +120,6 @@ void XMLParser4Scene::WhenStartElement( const std::string       &ElemName,
     return;
   }
 }
-
-
-
-
-/*
-   *  Tu moge rozpoznac element i przetworzyc jego atrybuty
-   */
-/*
-  if(ElemName == "Obstacle")
-  {
-    if(Attrs.getLength() != 1){
-      cerr<<"Zla ilosc atrybutow dla \"Obstacle\"" << endl; throw 1;     
-    }
-
-    char *sAttrName = xercesc::XMLString::transcode(Attrs.getQName(0));
-
-    if(strcmp(sAttrName,"Name")){
-      cerr <<"Zla nazwa atrybutu dla Obstacle" << endl; throw 2;
-
-    }
-    int zero=0;
-    char *sObstacleName = xercesc::XMLString::transcode(Attrs.getValue(static_cast < XMLSize_t >(zero)));
-
-    Prostopadloscian bryla;
-    cout<<sObstacleName<<endl;
-
-  bryla.nazwa = sObstacleName;
-    _pScn->przeszkody.push_back(bryla);
-  xercesc::XMLString::release(&sObstacleName);
-  xercesc::XMLString::release(&sAttrName);
-    return;
-  } */
-/*teraz dla parametrow rozmieszczenia i dlugosci*/
- /* if(ElemName == "Parameter")
-  {
-    if(Attrs.getLength() != 2){
-      cerr<<"Zla ilosc atrybutow dla \"Parameter\"" << endl; throw 1;     
-    }
-
-    char *sAttrName = xercesc::XMLString::transcode(Attrs.getQName(0));
-
-    if(strcmp(sAttrName,"Name")){
-      cerr <<"Zla nazwa atrybutu dla Parameter" << endl; throw 2;
-
-    }
-    int zero=0;
-    char *sObstacleName = xercesc::XMLString::transcode(Attrs.getValue(static_cast < XMLSize_t >(1))); //dla zerowego nie musimy brac bo to nazwa 
-    Prostopadloscian bryla;
-
-
-  bryla.nazwa = sObstacleName;
-    _pScn->przeszkody.push_back(bryla);
-  xercesc::XMLString::release(&sObstacleName);
-  xercesc::XMLString::release(&sAttrName);
-    return;
-  } 
-
-
-  cout << "       ---> Tu moge przetwarzyc element: " << ElemName << endl;
-  
-}
-*/
-
-
 
 /*!
  * Metoda jest wywoływana po napotkaniu nowego elementu XML, np.
@@ -215,8 +151,6 @@ void XMLParser4Scene::startElement(  const   XMLCh* const    pURI,
 
   xercesc::XMLString::release(&sElemName);
 }
-
-
 
 
 /*!
@@ -337,79 +271,3 @@ void XMLParser4Scene::warning(const xercesc::SAXParseException&  Exception)
    */
 }
 
-
-
-/*
-bool XMLParser4Scene::ReadFile(const char* sFileName,  Scene& Scn)
-{
-   try {
-            XMLPlatformUtils::Initialize(); //inicjalizacja biblioteki Xerces
-   }
-   catch (const XMLException& toCatch) {
-            char* message = XMLString::transcode(toCatch.getMessage());
-            cerr << "Error during initialization! :\n";
-            cerr << "Exception message is: \n"
-                 << message << "\n";
-            XMLString::release(&message);
-            return 1;
-   }
-
-   SAX2XMLReader* pParser = XMLReaderFactory::createXMLReader(); // Tworzenie obiektu parsera, i ustawieie własności
-
-   pParser->setFeature(XMLUni::fgSAX2CoreNameSpaces, true);
-   pParser->setFeature(XMLUni::fgSAX2CoreValidation, true);
-   pParser->setFeature(XMLUni::fgXercesDynamic, false);
-   pParser->setFeature(XMLUni::fgXercesSchema, true);
-   pParser->setFeature(XMLUni::fgXercesSchemaFullChecking, true);
-
-   pParser->setFeature(XMLUni::fgXercesValidationErrorAsFatal, true);
-
-   DefaultHandler* pHandler = new XMLParser4Scene(Scn); // Tworzenia handlera zdarzeń
-   pParser->setContentHandler(pHandler);
-   pParser->setErrorHandler(pHandler);
-
-   try {
-    // Wczytanie gramatyki
-     if (!pParser->loadGrammar("grammar/scene.xsd",
-                              xercesc::Grammar::SchemaGrammarType,true)) {
-       cerr << "!!! Plik grammar/scene.xsd, '" << endl
-            << "!!! ktory zawiera opis gramatyki, nie moze zostac wczytany."
-            << endl;
-       return false;
-     }
-     pParser->setFeature(XMLUni::fgXercesUseCachedGrammarInParse,true);
-     pParser->parse(sFileName); //ustawienie parsera
-   }
-   catch (const XMLException& Exception) {  //Przechwytywanie wyjątków
-            char* sMessage = XMLString::transcode(Exception.getMessage());
-            cerr << "Informacja o wyjatku: \n"
-                 << "   " << sMessage << "\n";
-            XMLString::release(&sMessage);
-            return false;
-   }
-   catch (const SAXParseException& Exception) {
-            char* sMessage = XMLString::transcode(Exception.getMessage());
-            char* sSystemId = xercesc::XMLString::transcode(Exception.getSystemId());
-
-            cerr << "Blad! " << endl
-                 << "    Plik:  " << sSystemId << endl
-                 << "   Linia: " << Exception.getLineNumber() << endl
-                 << " Kolumna: " << Exception.getColumnNumber() << endl
-                 << " Informacja: " << sMessage 
-                 << endl;
-
-            XMLString::release(&sMessage);
-            XMLString::release(&sSystemId);
-            return false;
-   }
-   catch (...) {
-            cout << "Zgloszony zostal nieoczekiwany wyjatek!\n" ;
-            return false;
-   }
-
-   delete pParser;// Usunięcie pomocniczych obiektów
-   delete pHandler;
-   return true;
-}
-
-*/

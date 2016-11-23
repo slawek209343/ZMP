@@ -13,7 +13,7 @@
 #include "Wtyczka.hh"
 #include "ZarzadcaWtyczek.hh"
 #include "GnuplotVisualizer.hh"
-//#include "scene.hh"
+#include "xmlparser4scene.hh"
 
 
 

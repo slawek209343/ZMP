@@ -3,7 +3,8 @@
 
 #include "Visualization.hh"
 #include "lacze_do_gnuplota.hh"
-
+#include "scene.hh"
+#include <string>
 
 /*!
  * \brief Nazwa pliku zawierającego współrzędne trajektorii drona
@@ -72,12 +73,16 @@ class GnuplotVisualizer: public Visualization {
   //--------------------------------------------------------------
   // W dalszej części zdefinowane są przykładowe pomocnicze metody
   //
-
+  bool ReadXMLFile(const char* sFileName);
   /*!
    * \brief Dodaje nazwy plików opisów obiektów reprezentujących drona
    */
   void AddDronFileNames4Gnuplot();
 
+/*!
+* \brief scena zawierajaca przeszkody do wyswietlenia
+*/
+  Scene _scn;
   
 };
 

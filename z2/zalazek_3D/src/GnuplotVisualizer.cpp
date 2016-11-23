@@ -1,11 +1,22 @@
+#include <xercesc/util/PlatformUtils.hpp>
 #include "GnuplotVisualizer.hh"
 #include <fstream>
 #include <iostream>
 #include <cmath>
 #include "Wektor3D.hh"
+#include "xmlparser4scene.hh"
+#include <xercesc/util/XMLString.hpp>
+#include <xercesc/util/PlatformUtils.hpp>
+#include <xercesc/sax/Locator.hpp>
+#include <xercesc/sax2/Attributes.hpp>
+#include <xercesc/sax2/DefaultHandler.hpp>
+#include <xercesc/sax2/SAX2XMLReader.hpp>
+#include <xercesc/sax2/XMLReaderFactory.hpp>
+#include <xercesc/sax2/DefaultHandler.hpp>
+#include <xercesc/util/XMLString.hpp>
 
 using namespace std;
-
+using namespace xercesc;
 #define FILE_NAME__ROTOR_TEMPLATE "wzor_rotora.dat"
 #define FILE_NAME__ROTOR1          "rotor1.dat"
 #define FILE_NAME__ROTOR2          "rotor2.dat"
@@ -340,10 +351,19 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
    //    Tworzymi pliki z obrysem prostopadłościanów modelujących przeszkody
    //    i przekazujemy ich nazwy do modułu lacze_do_gnuplota. 
 
+
+  ReadXMLFile(FileName_XML);
    // Tu tworzymy nowy plik z obrysem przeszkody transformując sześcian o boku 1
    // do prostopadłościanu i przesuwając go w odpowiednie miejsce.
+    for(int i = 0; i < _scn.Przeszkody.size();++i){
 
+    string name = _scn.Przeszkody[i]._name + ".dat";
+    if (!TransformGeom(FILE_NAME__DRON_BODY_TEMPLATE,  name.c_str(),
+           _scn.Przeszkody[i]._center, 0, _scn.Przeszkody[i]._size)) return false;
+    Plotter.DodajNazwePliku(name.c_str(),PzG::RR_Ciagly,1,12);
+}
 
+/* //tutaj jest tylko rysowanie na sztywno przeszkod
   //ReadFile(FileName_XML);
 
   if (!TransformGeom(FILE_NAME__DRON_BODY_TEMPLATE, FILE_NAME__OBSTACLE1,
@@ -361,7 +381,80 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
   if (!TransformGeom(FILE_NAME__DRON_BODY_TEMPLATE,FILE_NAME__OBSTACLE3,
                      Wektor3D(150,60,60), 0, Wektor3D(10,10,120))) return false;
   Plotter.DodajNazwePliku(FILE_NAME__OBSTACLE3,PzG::RR_Ciagly,1,12);
-
+*/
   return true;
 }
 
+
+
+bool GnuplotVisualizer::ReadXMLFile(const char* sFileName)
+{
+   try {
+            XMLPlatformUtils::Initialize();
+   }
+   catch (const XMLException& toCatch) {
+            char* message = XMLString::transcode(toCatch.getMessage());
+            cerr << "Error during initialization! :\n";
+            cerr << "Exception message is: \n"
+                 << message << "\n";
+            XMLString::release(&message);
+            return 1;
+   }
+
+   SAX2XMLReader* pParser = XMLReaderFactory::createXMLReader();
+
+   pParser->setFeature(XMLUni::fgSAX2CoreNameSpaces, true);
+   pParser->setFeature(XMLUni::fgSAX2CoreValidation, true);
+   pParser->setFeature(XMLUni::fgXercesDynamic, false);
+   pParser->setFeature(XMLUni::fgXercesSchema, true);
+   pParser->setFeature(XMLUni::fgXercesSchemaFullChecking, true);
+
+   pParser->setFeature(XMLUni::fgXercesValidationErrorAsFatal, true);
+
+   DefaultHandler* pHandler = new XMLParser4Scene(this->_scn);
+   pParser->setContentHandler(pHandler);
+   pParser->setErrorHandler(pHandler);
+
+   try {
+     
+     if (!pParser->loadGrammar("grammar/scene.xsd",
+                              xercesc::Grammar::SchemaGrammarType,true)) {
+       cerr << "!!! Plik grammar/scene.xsd, '" << endl
+            << "!!! ktory zawiera opis gramatyki, nie moze zostac wczytany."
+            << endl;
+       return false;
+     }
+     pParser->setFeature(XMLUni::fgXercesUseCachedGrammarInParse,true);
+     pParser->parse(sFileName);
+   }
+   catch (const XMLException& Exception) {
+            char* sMessage = XMLString::transcode(Exception.getMessage());
+            cerr << "Informacja o wyjatku: \n"
+                 << "   " << sMessage << "\n";
+            XMLString::release(&sMessage);
+            return false;
+   }
+   catch (const SAXParseException& Exception) {
+            char* sMessage = XMLString::transcode(Exception.getMessage());
+            char* sSystemId = xercesc::XMLString::transcode(Exception.getSystemId());
+
+            cerr << "Blad! " << endl
+                 << "    Plik:  " << sSystemId << endl
+                 << "   Linia: " << Exception.getLineNumber() << endl
+                 << " Kolumna: " << Exception.getColumnNumber() << endl
+                 << " Informacja: " << sMessage 
+                 << endl;
+
+            XMLString::release(&sMessage);
+            XMLString::release(&sSystemId);
+            return false;
+   }
+   catch (...) {
+            cout << "Zgloszony zostal nieoczekiwany wyjatek!\n" ;
+            return false;
+   }
+
+   delete pParser;
+   delete pHandler;
+   return true;
+}
