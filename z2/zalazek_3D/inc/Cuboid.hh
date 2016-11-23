@@ -15,7 +15,10 @@
  * to położenie środka prostopadłościanu oraz długość poszczególnych boków.
  */
 class Cuboid {
+
   public:
+
+
   /*!
    * \brief Destruktor wirtualny dla poprawnej destrukcji obiektu
    *

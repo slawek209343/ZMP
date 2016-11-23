@@ -9,6 +9,11 @@
 #include <xercesc/sax2/Attributes.hpp>
 #include <xercesc/sax2/DefaultHandler.hpp>
 
+#include <xercesc/sax2/SAX2XMLReader.hpp>
+#include <xercesc/sax2/XMLReaderFactory.hpp>
+
+#include <xercesc/util/XMLString.hpp>
+
 //XERCES_CPP_NAMESPACE_USE
 #include <string>
 #include "scene.hh"
@@ -79,6 +84,10 @@ class XMLParser4Scene : public xercesc::DefaultHandler {
     void WhenStartElement( const std::string&             ElemName,
 		           const xercesc::Attributes&     Attrs
                          );
+
+
+    //bool ReadFile(const char* sFileName, Scene& Scn);
+
   private:
   /*!
    *  \brief Zawiera wskaźnik do modyfikowanej sceny

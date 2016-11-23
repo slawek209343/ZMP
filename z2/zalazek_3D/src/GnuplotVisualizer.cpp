@@ -313,6 +313,7 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
 
    // 1. Powinniśmy sprawdzić, czy można otworzyć plik o podanej nazwie,
    //    jeśli nie, to kończymy działanie.
+
    std::ifstream plik;
   plik.open( FileName_XML);
   if( !plik.good() )
@@ -320,6 +321,8 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
         cerr<<"Brak pliku XML o takiej nazwie lub nazwa niepoprawna\n";
         return false;
   }
+
+
 
    // 2. Usuwamy dotychczasowe obiekty 
   //otwiera sie nowe okno wiec sie nic nie musi czyscic
@@ -339,6 +342,10 @@ bool GnuplotVisualizer::ReadScene(const char* FileName_XML)
 
    // Tu tworzymy nowy plik z obrysem przeszkody transformując sześcian o boku 1
    // do prostopadłościanu i przesuwając go w odpowiednie miejsce.
+
+
+  //ReadFile(FileName_XML);
+
   if (!TransformGeom(FILE_NAME__DRON_BODY_TEMPLATE, FILE_NAME__OBSTACLE1,
                      Wektor3D(10,80,10), 0, Wektor3D(40,20,10))) return false;
    //  Parametr 12 na końcu odpowiada rysowaniu kolorem niebieskim
